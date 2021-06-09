@@ -2,15 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  /* border: 2px solid red;  */
+  /* border: 2px solid red; */
 }
 body {
-  height: 100%;
-  /* background-color: #212529;  */
+  /* background-color: #212529 ; */
+  background-color: #000;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-image: url(../images/background.jpg);
 }
 .name {
   color: aliceblue;
@@ -38,38 +37,54 @@ body {
   padding: 20px;
   padding-bottom: 5px;
   color: aliceblue;
-  font-size: calc(1.1rem + 0.6vw);
+  font-size: calc(1.3rem + 0.6vw);
 }
 .link:hover {
   color: lightsteelblue;
-  border-bottom: aliceblue solid 0.25rem;
+  border-bottom: aliceblue solid 0.3rem;
   border-radius: 5px;
 }
-
-.hello {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about {
   color: aliceblue;
-  padding-top: 5rem;
-  font-size: calc(2.3rem + 0.6vw);
+  font-size: calc(1.3rem + 0.6vw);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.social > ul {
+.about > ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding-top: 17rem;
 }
-
-.social {
+.para1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-bottom: 3rem;
+  margin-top: 20vh;
+  flex-wrap: wrap;
+}
+.name{
+  margin-left: 7px;
+  padding-left: 1px;
+}
+.para2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  flex-wrap: wrap;
+}
+.project {
+  color: aliceblue;
+  font-size: calc(3.3rem + 0.6vw);
   display: flex;
   text-align: center;
   justify-content: center;
   flex-direction: row;
-  font-size: calc(1.3rem + 0.6vw);
-}
-.item {
-  margin: 1rem;
+  margin-top: 35vh;
 }
