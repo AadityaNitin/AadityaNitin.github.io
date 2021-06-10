@@ -11,10 +11,15 @@ body {
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .name {
   color: aliceblue;
   font-size: calc(1.3rem + 0.6vw);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .navbar {
   display: flex;
@@ -51,7 +56,8 @@ body {
   justify-content: center;
   align-items: center;
   color: aliceblue;
-  padding-top: 5rem;
+  padding-top: 1em;
+  padding-bottom: 2.5em;
   font-size: calc(2.3rem + 0.6vw);
 }
 .social > ul {
