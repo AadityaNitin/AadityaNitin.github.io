@@ -14,6 +14,8 @@ body {
 .name {
   color: aliceblue;
   font-size: calc(1.3rem + 0.6vw);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .navbar {
   display: flex;
@@ -37,13 +39,14 @@ body {
   padding: 20px;
   padding-bottom: 5px;
   color: aliceblue;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.1rem + 0.6vw);
 }
 .link:hover {
   color: lightsteelblue;
-  border-bottom: aliceblue solid 0.3rem;
+  border-bottom: aliceblue solid 0.25rem;
   border-radius: 5px;
 }
+
 .about {
   color: aliceblue;
   font-size: calc(1.3rem + 0.6vw);
