@@ -79,3 +79,86 @@ body {
 .item {
   margin: 1rem;
 }
+
+/* tablet view */
+@media only screen and (max-width: 940px) {
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* border: 2px solid red;  */
+}
+body {
+  height: 100%;
+  /* background-color: #212529;  */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  padding-top: 10rem;
+  padding-bottom: 2.5em;
+  font-size: calc(2.3rem + 0.6vw);
+}
+.social > ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30rem;
+}
+}
+@media only screen and (max-width: 480px){
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 2px solid red;  */
+  }
+  body {
+    height: 100%;
+    /* background-color: #212529;  */
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow: hidden;
+    width: 100%;
+  }
+  .hello {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 5rem;
+    padding-bottom: 2.5em;
+    font-size: calc(2.3rem + 0.6vw);
+  }
+  .name{
+    margin-bottom: 2rem;
+  }
+  .social > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17rem;
+  }
+}

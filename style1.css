@@ -106,7 +106,8 @@ body {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap;  */
+  /* add this in phone view */
 }
 .card {
   padding: 3em;
@@ -127,4 +128,44 @@ body {
 }
 .card-title3{
   height:44px;
+}
+@media only screen and (max-width: 940px) {
+  .para1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 3rem;
+    margin-top: 29vh;
+    flex-wrap: wrap;
+}
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;  
+}
+}
+@media only screen and (max-width: 480px){
+  .para1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-bottom: 3rem;
+    margin-top: 29vh;
+    flex-wrap: wrap;
+}
+.para2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  flex-wrap: wrap;
+}
 }
