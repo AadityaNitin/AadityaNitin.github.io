@@ -150,9 +150,6 @@ body {
 }
 }
 @media only screen and (max-width: 480px){
-  .name{
-    margin-bottom: 2rem;
-  }
   .para1 {
     display: flex;
     justify-content: center;
