@@ -11,6 +11,7 @@ body {
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-image: url(../images/background.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -66,7 +67,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 14rem;
+  /* padding-top: 18rem; */
+  position: relative;
+  top: 13em;
 }
 
 .social {
